@@ -1,0 +1,5 @@
+- 'Salt Correction - Final Version.ipynb' is the jupyter notebook that produces all figures in the paper "Mono-valent salt corrections for RNA secondary structures in the ViennaRNA package". The notebook also contains examples of using salt option in RNAlib. All figures are stored under "Fig/" directory. [VARNAv3-93.jar](http://varna.lri.fr/index.php?lang=en&page=home&css=varna) is required if one wants to visualize the tRNA structure.
+- 'saltEnergy.py' is the python implementation for RNA salt correction, which is same as the one implemented in the ViennaRNA package.
+- 'create_ss.py' samples randomly and uniformly RNA sequences and folds them at different salt concentrations. The output MFE structures are stored under "ss/" directory. 'count_ss.py' counts the structural information of these MFE structures in "ss/" and summarized in 'ss_count_detail.csv',
+- 'download-dp-395.dp' contains the natural secondary structures featuring multiloop downloaded from the RNA STRAND database.
+- 'Data/' directory contains several experimental data that is used to compare with the model.
